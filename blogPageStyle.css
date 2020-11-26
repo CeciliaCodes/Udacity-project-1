@@ -1,0 +1,48 @@
+
+@import url("style.css");
+
+/*COLOR PALETTE
+
+CSS HEX
+--cultured: #f5f2f2ff;
+--inchworm: #a3e462ff;
+--tea-green: #caeaaaff;
+--silver: #c9c9c9ff;
+
+*/
+
+
+
+
+
+/********* BLOG BUSINESS *******/
+
+
+
+
+.blogPageContent {
+    display: grid;
+    border: 2px solid #000;
+    border-radius: 5px;
+    grid-template-rows: 50px 50px 1fr;
+    grid-area: blog;
+    background-color: #f5f2f2ff;
+    text-align: left;
+    padding:30px 90px 30px 90px;
+    margin: auto;
+}
+
+.yarn {
+    float: left;
+    padding: 7px 7px 7px 0px;
+}
+
+.blogPageContent .avatar {
+    float: left;
+}
+
+.sidebar {
+    max-width: 300px;
+    max-height: 100%;
+
+}
